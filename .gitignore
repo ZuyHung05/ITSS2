@@ -1,6 +1,6 @@
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+**/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -39,3 +39,12 @@ build/
 application-local.properties
 application-*.local.properties
 *.secret
+
+### Automated browser tests ###
+node_modules/
+tests/solution1/test-results/
+tests/solution1/playwright-report/
+
+/docs*
+/tests*
+/scripts*
